@@ -87,7 +87,7 @@ disabled
 reboot
 
 
-
+#move /local_repo to local_repo/rhel
 
 
 
