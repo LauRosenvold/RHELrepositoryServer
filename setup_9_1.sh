@@ -75,7 +75,19 @@ systemctl status httpd
 
 rm -rf /etc/httpd/conf.d/welcome.conf
 
+setfacl -R -m u:apache:rwx /local_repo/
+
 systemctl restart httpd
+
+setenforce 0
+
+/etc/selinux/config
+disabled
+
+reboot
+
+
+
 
 
 
