@@ -4,6 +4,7 @@ useradd localadm
 
 passwd localadm
 
+vi /etc/sudoers
 #localadm ALL=(ALL) ALL
 
 mount /dev/cdrom /mnt
